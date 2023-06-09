@@ -1,2 +1,1 @@
-tugas gitbash
-dian ardiansah
+tugasnya ada pada branch "newbranch" 
