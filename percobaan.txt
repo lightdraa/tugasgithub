@@ -1,1 +1,32 @@
-branch percobaan
+LANGKAH - LANGKAH 
+// DIAN ARDIANSAH
+//41155050220052
+
+$ mkdir tugasgithub: Membuat direktori baru dengan nama "tugasgithub" di lokasi saat ini.
+$ ls: Menampilkan daftar file dan direktori di direktori saat ini.
+$ cd tugasgithub: Mengubah direktori saat ini ke "tugasgithub".
+$ cd ..: Mengubah direktori saat ini ke direktori induk (direktori di atasnya).
+$ touch readme.md: Membuat file baru dengan nama "readme.md" di dalam direktori "tugasgithub".
+$ ls: Menampilkan daftar file dan direktori di direktori saat ini.
+$ code .: Membuka direktori "tugasgithub" dalam editor kode (Visual Studio Code).
+$ cat > readme.md: Menggunakan perintah cat, Anda dapat menulis teks ke dalam file "readme.md". Setelah mengetikkan kontennya, tekan Ctrl + D untuk menyimpan perubahan.
+$ nano readme.md: Membuka file "readme.md" dalam editor teks bernama Nano.
+$ git init: Memulai repositori Git baru di direktori "tugasgithub".
+$ git config -l: Menampilkan konfigurasi Git saat ini.
+$ git config --global user.name "----": Mengatur nama pengguna Git secara global.
+$ git config --global user.email "----": Mengatur email pengguna Git secara global.
+$ git config -l: Menampilkan konfigurasi Git saat ini setelah mengatur nama pengguna dan email.
+$ git remote add origin: Menambahkan remote repository dengan nama "origin" (berbeda_beda setiap pembuatan).
+$ git remote -v: Menampilkan daftar remote repository yang terhubung.
+$ git add .: Menambahkan semua perubahan file ke dalam staged area untuk proses commit.
+$ git status: Menampilkan status perubahan yang belum di-commit dalam repository.
+$ git commit -m "first commit": Membuat commit dengan pesan "first commit" untuk menyimpan perubahan yang ada di staged area.
+$ git push origin master: Mengirim commit ke remote repository dengan nama "origin" pada branch "master".
+$ git checkout -b "newbranch": Membuat branch baru dengan nama "newbranch" dan beralih ke branch tersebut.
+$ git branch: Menampilkan daftar branch yang ada dalam repository.
+$ touch percobaan.txt: Membuat file baru dengan nama "percobaan.txt" di dalam branch "newbranch".
+$ cat > percobaan.txt: Menulis teks ke dalam file "percobaan.txt" di branch "newbranch". Setelah mengetikkan kontennya, tekan Ctrl + D untuk menyimpan perubahan.
+$ ls: Menampilkan daftar file dan direktori di direktori saat ini.
+$ git add .: Menambahkan semua perubahan file ke dalam staged area untuk proses commit.
+$ git commit -m "add percobaan.txt file": Membuat commit dengan pesan "add percobaan.txt file" untuk menyimpan perubahan yang ada di staged area.
+$ git push origin newbranch: Mengirim commit ke remote repository dengan nama "origin" pada branch "newbranch".
